@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin:"#fffbf0",
+                jacketPrice: "#FABE4C",
+              }
+            }
+          }
+        }
+      </script>
+      <script src="https://kit.fontawesome.com/666b711b8d.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-slate-200">
+ <header class="bg-penguin pb-32 pt-32">
+    <div class="container mx-auto sm:flex items-center justify-around">
+        <div class="home-info space-y-4">
+            <h1 class="text-2xl sm:text-5xl font-bold ">
+                <span class="text-orange-500">BE THE PENGUIN</span>
+                <br>
+                <span>OF WINTER</span>
+            </h1>
+            <p class="text-2xl sm:0">Lorem ipsum dolor sit amet consectetur.</p>
+            <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> <i class="fa-solid fa-cart-shopping"></i> buy now</button>
+        </div>
+        <div class="home-img pt-8 sm:pt-0">
+            <img class="w-1/2 sm:full" src="images/model.png" alt="">
+        </div>
+    </div>
+ </header>
+  <main class="container mx-auto">
+    <!-- Woman Jacket start -->
+    <section class="mb-24">
+        <h2 class="uppercase text-5xl p-10 font-semibold">woman jacket</h2>
+        <div class="jacket-group grid md:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
+            <!-- Jacket 1 -->
+            <div class="jacket-1 p-4 shadow-xl">
+              <div class="jacket-img p-5 bg-slate-400 rounded-xl">
+                <img src="images/jacket-1.png" alt="">
+              </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum voluptatum dolor!</p>
+                <div class="price flex justify-between">
+                    <h2 class="text-5xl text-jacketPrice font-bold">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> buy now</button>
+                </div>
+            </div>
+
+            <div class="jacket-1 p-4 shadow-xl rounded-xl">
+              <div class="jacket-img p-5 bg-slate-400  rounded-xl">
+                <img src="images/jacket-2.png" alt="">
+              </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum voluptatum dolor!</p>
+                <div class="price flex justify-between">
+                    <h2 class="text-5xl text-jacketPrice font-bold">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> buy now</button>
+                </div>
+            </div>
+
+            <div class="jacket-1 p-4 shadow-xl rounded-xl">
+              <div class="jacket-img p-5 bg-slate-400  rounded-xl">
+                <img src="images/jacket-3.png" alt="">
+              </div>
+                <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum voluptatum dolor!</p>
+                <div class="price flex justify-between">
+                    <h2 class="text-5xl text-jacketPrice font-bold">$234</h2>
+                    <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> buy now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Man jacket -->
+    <section class="mb-24">
+      <h2 class="uppercase p-10 text-5xl font-semibold">man jacket</h2>
+      <div class="jacket-group grid md:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
+        <!-- Jacket 1 -->
+        <div class="jacket-1 p-4 shadow-xl">
+          <div class="jacket-img p-5 bg-slate-400  rounded-xl">
+            <img src="images/jacket-4.png" alt="">
+          </div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum voluptatum dolor!</p>
+            <div class="price flex justify-between">
+                <h2 class="text-5xl text-jacketPrice font-bold">$234</h2>
+                <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> buy now</button>
+            </div>
+        </div>
+
+        <div class="jacket-1 p-4 shadow-xl rounded-xl">
+          <div class="jacket-img p-5 bg-slate-400  rounded-xl">
+            <img src="images/jacket-5.png" alt="">
+          </div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum voluptatum dolor!</p>
+            <div class="price flex justify-between">
+                <h2 class="text-5xl text-jacketPrice font-bold">$234</h2>
+                <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> buy now</button>
+            </div>
+        </div>
+
+        <div class="jacket-1 p-4 shadow-xl rounded-xl">
+          <div class="jacket-img p-5 bg-slate-400  rounded-xl">
+            <img src="images/jacket-6.png" alt="">
+          </div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum voluptatum dolor!</p>
+            <div class="price flex justify-between">
+                <h2 class="text-5xl text-jacketPrice font-bold">$234</h2>
+                <button class="uppercase bg-[#A4BC46] py-5 px-7 font-semibold rounded-xl"> buy now</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Our benefits -->
+    <section>
+     <div class="grid sm:grid-cols-1 xl:grid-cols-2 gap-7">
+      <div class="rounded-xl flex bg-white p-6 gap-6">
+        <img class="w-20 h-20" src="images/house.png" alt="">
+         <div>
+          <h4 class="text-2xl mb-4">Find the Perfect Fit</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <div class="row-span-3">
+        <img src="images/shopping.png" alt="">
+      </div>
+      <div class="rounded-xl flex bg-white p-6 gap-6">
+        <img class="w-20 h-20" src="images/house.png" alt="">
+         <div>
+          <h4 class="text-2xl mb-4">Find the Perfect Fit</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <div class="rounded-xl flex bg-white p-6 gap-6">
+        <img class="w-20 h-20" src="images/house.png" alt="">
+         <div>
+          <h4 class="text-2xl mb-4">Find the Perfect Fit</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+     </div>
+    </section>
+  </main>
+  <footer class="bg-black h-28 mt-24">
+    <div class="">
+      <h2 class="text-white  text-center">@Copy Right 2023. Hridoy Roy. Thakurgaon</h2>
+    </div>
+  </footer>
+</body>
+</html>
